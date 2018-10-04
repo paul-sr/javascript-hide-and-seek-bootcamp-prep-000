@@ -15,6 +15,6 @@ function deepestChild() {
   var temp = document.querySelector(`div#grand-node`) 
   console.log(`first: ` + temp.querySelectorAll(`div`)[3].innerHTML)
   var len = temp.querySelectorAll(`div`).length
-  return temp.querySelectorAll(`div`)[len]
+  return temp.querySelectorAll(`div`)[len].innerHTML
   
 }
