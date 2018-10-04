@@ -16,7 +16,7 @@ function deepestChild() {
   console.log(`first: ` + temp.querySelectorAll(`div`).length)
   var len = parseInt(temp.querySelectorAll(`div`).length)
 
-  console.log(len + `next: ` + temp.querySelectorAll(`div`)[3].innerHTML)
-  return temp.querySelectorAll(`div`)[3]
+  console.log(len + `next: ` + temp.querySelectorAll(`div`)[len-1].innerHTML)
+  return temp.querySelectorAll(`div`)[len-1]
   
 }
